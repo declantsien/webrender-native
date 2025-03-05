@@ -5,10 +5,7 @@
 # do that, it's likely that the sync will fail or add all commits again to the
 # repository. See the documentation in `sync.sh` for more details.
 
-gfx/webrender_bindings/Cargo.toml
-gfx/webrender_bindings/cbindgen.toml
-gfx/webrender_bindings/rustfmt.toml
-gfx/webrender_bindings/src
+gfx/webrender_bindings/
 regex:gfx/webrender_bindings/(.+)==>webrender_bindings/\1
 gfx/wr/
 regex:gfx/wr/(.+)==>\1
